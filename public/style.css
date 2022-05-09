@@ -10,4 +10,65 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: center, auto;
+    color: #010101;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Sigmar One', cursive;
+    font-size:3em;
+    line-height: 1;
+    color: #ffffff;
+}
+
+#dinoImage{
+    max-width: 100%;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.generator {
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    background: rgb(221, 18, 18);
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: background 150ms ease-in-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+button:hover{
+    background: rgb(149, 9, 9);
+}
+
+#dinoWrapper {
+    width: 80%;
+    max-width: 25rem;
+    display: block;
+    margin: auto;
+}
+
+
+@media (min-width: 37.5em){
+    h1{
+        font-size: 3rem;
+    }
+    #dinoWrapper {
+        width: 50%;
+    }
+}
+
+#dinoName {
+    background: #fff;
+    padding: 0.25rem;
+    border-radius: 1rem 1rem 0 0;
 }
